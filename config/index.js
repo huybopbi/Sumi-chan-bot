@@ -4,9 +4,9 @@ module.exports = {
     prefix: process.env.PREFIX || '!',
     botName: process.env.BOT_NAME || 'Sumi-Chan',
     developer: {
-        uid: 100027477920916,
-        email: 'rfechinonguyen@gmail.com',
-        github: 'Roxtigger2003'
+        uid: 100029036684038,
+        email: 'phuy75221@gmail.com',
+        github: 'huybopbi'
     },
     database: {
         postgres: {
@@ -23,5 +23,5 @@ module.exports = {
     swear: {
         limit: 2
     },
-    admins: (process.env.ADMINS || '100027477920916_100043856164884').split('_').map(e => parseInt(e))
+    admins: (process.env.ADMINS || '100029036684038').split('_').map(e => parseInt(e))
 }
