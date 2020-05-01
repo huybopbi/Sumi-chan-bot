@@ -14,7 +14,7 @@ const option = {
   //* cách lấy userAgent: F12-> tab console gõ 'naigator.userAgent' Link: https://imgur.com/oQ5hUkH
 };
 // edit email với password ở bên dưới!
-const obj = { email: "eka107@hotmail.com", password: "huydzvkl" };
+const obj = { email: "xxxx", password: "xxx" };
 login(obj, option, (err, api) => {
   if (err) {
     switch (err.error) {
